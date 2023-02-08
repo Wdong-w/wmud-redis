@@ -12,7 +12,7 @@ class Connection
      * @return Redis
      * @throws RedisException
      */
-    private function connect(array $config = []): Redis
+    public function connect(array $config = []): Redis
     {
         $host = $config['host'] ?? '127.0.0.1';
         $port = (int)($config['port'] ?? 6379);
