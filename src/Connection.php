@@ -1,6 +1,6 @@
 <?php
 
-namespace Wmd\Redis;
+namespace Wmud\Redis;
 
 use Redis;
 use RedisException;
